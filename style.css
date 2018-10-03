@@ -8,6 +8,19 @@
   white-space:nowrap;
 }
 
+#playbutton {
+  font-size:30px;
+  background-color:red
+}
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   text-align:center;
